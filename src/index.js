@@ -1,21 +1,11 @@
 import extendDeep from './extendDeep.js';
 import compareDeep from './compareDeep.js';
 
-const obj1 = {
-  a: 1,
-  b: 2,
-  c: {
-    d: 4,
-  },
-};
+import { obj1, obj2 } from './test1.js';
 
-const obj2 = {
-  a: 1,
-  b: 2,
-  c: {
-    d: 3,
-  },
-};
-
-console.log(extendDeep(obj1, obj2));
-console.log(compareDeep(obj1, obj2));
+console.log('Test:');
+console.log(' obj1: '); console.dir(obj1);
+console.log(' obj2: '); console.dir(obj2);
+console.log('extendDeep:');
+console.log(' obj1: '); console.dir(extendDeep(obj1, obj2));
+console.log('compareDeep:'); console.dir(compareDeep(obj1, obj2));
