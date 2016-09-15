@@ -1,0 +1,11 @@
+{
+  "name": "cjsi-extenddeep-comparedeep",
+  "version": "1.0.0",
+  "description": "Ciklum JS Internship Lesson 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey <mironenkoalexey@gmail.com>",
+  "license": "ISC"
+}
